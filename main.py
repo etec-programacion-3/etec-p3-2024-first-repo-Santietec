@@ -10,4 +10,8 @@ def index():
 def goodbye():
     return "chau"
 
+@app.route("/saludo")
+def salute():
+    return "Todo bien?"
+
 app.run()
